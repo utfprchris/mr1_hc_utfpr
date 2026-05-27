@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+result/
+build/
+slices_debug/
+**/CT*
+dataset/*
