@@ -20,11 +20,15 @@ import torch.nn.init
 from dicom_to_nifti import converter
 from validarMetodologia import executar_metodologia
 import cv2
+import os
 
 from mr_window_filter import MRWindowFilter
 
 import time
 import matplotlib.pyplot as plt
+
+# Criar pasta result se não existir
+os.makedirs('result', exist_ok=True)
 
 
 
