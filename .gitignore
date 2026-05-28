@@ -4,4 +4,4 @@ result/
 build/
 slices_debug/
 **/CT*
-dataset/*
+dataset_original/*
